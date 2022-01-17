@@ -10,7 +10,6 @@ const MovieCard = ({ movie }) => {
         <Card.Img variant="top" src={movie.img} className="movieImg" />
         <Card.Body className="cardText">
           <Card.Title className="movieTitle">{movie.title}</Card.Title>
-          {/* <span>{movie.rating}</span> */}
           <Rating rating={movie.rating} />
         </Card.Body>
       </Card>

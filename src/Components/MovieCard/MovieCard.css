@@ -1,7 +1,9 @@
 .movieCard {
-  color: white;
-  margin: 1%;
-  border: 1px solid white;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 2%;
 }
 
 .cardText {
@@ -9,10 +11,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.movieImg {
-  border-bottom: white solid 0.5px;
 }
 
 .movieTitle {
